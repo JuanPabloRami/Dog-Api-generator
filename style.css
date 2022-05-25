@@ -1,0 +1,73 @@
+
+
+body{
+    margin:0;
+    padding:0;
+    
+
+}
+
+h1{
+    font-family: Simpsonfont;
+    color: aliceblue;
+}
+
+p{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    height:73px;
+    color: white;
+    background-color: rgb(0, 106, 255);
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    min-height: 92vh;
+}
+
+#ButtonGenerate{
+    color: white;
+    background: rgb(0, 88, 165);
+    border:1px solid black;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#CharacterContainer{
+    display: flex;
+    align-items: center;
+    width:920px;
+    flex-wrap: wrap;
+    border:1px solid black;
+    margin-top:20px;
+    
+}
+
+.cardContainer{
+    width: 13rem;
+    height: 13rem;
+    background-color: #005183;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+    border-radius: 25px;
+}
+
+.imgCard{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+
+}
+
